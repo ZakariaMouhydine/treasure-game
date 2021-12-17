@@ -1,0 +1,10 @@
+body {
+    background-image: url("treasuremap.jpg");
+    background-size: cover;
+}
+
+#treasurebox {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+}
