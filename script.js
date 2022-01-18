@@ -23,13 +23,13 @@ function mouseClick(e) {
   let distance = distanceBetween (e.clientX,e.clientY,treasureX,treasureY)
 
   if (distance>700) {
-    myAlert ("Cold" + distance)
+    myAlert ("Cold...")
   }
   else if (distance<500 && distance > 250) {
-    myAlert ("Warm" + distance)
+    myAlert ("Warm")
   }
   else if (distance<250 && distance>50) {
-    myAlert ("Hot!!!" + distance) 
+    myAlert ("Hot!!!") 
   }
   else if (distance<50) {
     myAlert ("You found the treasure")
