@@ -32,7 +32,9 @@ function mouseClick(e) {
     myAlert ("Hot!!!") 
   }
   else if (distance<50) {
+    treasureBox.style.visibility="visible"
     myAlert ("You found the treasure")
+
   }
 }
 function myAlert (msg) {
